@@ -1,0 +1,45 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.container-fluid {
+  text-align: center;
+  --bs-gutter-x: 0rem;
+  padding-top: 5rem;
+  padding-bottom: 4rem;
+}
+.wrapper {
+  text-align: center;
+  padding: 2% 15% 7%;
+  display: grid;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.title-button {
+  margin: 2% 3% 5% 3%;
+}
+
+h3 {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.5rem;
+}
+p {
+  font-family: "Arima", cursive;
+  color: #333333;
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.features {
+  text-align: center;
+  padding: 5%;
+}
+.strong {
+  font-size: 70px;
+  font-weight: 900;
+  text-shadow: 0 2px black;
+}

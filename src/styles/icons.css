@@ -1,0 +1,44 @@
+.icons {
+  margin-bottom: 1rem;
+  color: black;
+  transition: 0.5s;
+}
+
+.icons:hover {
+  color: white;
+}
+
+.icon {
+  color: white;
+}
+.icon:hover {
+  color: black;
+}
+
+.icon-button {
+  margin: 10rem 0.25rem 0rem 0.25rem;
+}
+
+.icon-button:hover {
+  color: #000000;
+}
+
+.linkedin {
+  color: #0e76a8;
+}
+.github {
+  color: #333333;
+}
+.instagram {
+  color: #e4405f;
+}
+.google {
+  color: #ea4335;
+}
+.twitter {
+  color: #1da1f2;
+}
+.iconclass {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
