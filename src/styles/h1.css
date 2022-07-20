@@ -1,8 +1,8 @@
-h1 {
-  font-family: "Montserrat", sans-serif;
-  letter-spacing: 1px;
-  font-size: 3.5em;
-  font-weight: bold;
-  line-height: 1.5;
-  color: rgb(0, 0, 0);
+.h1__heading {
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 1px;
+    font-size: 3em;
+    font-weight: bold;
+    line-height: 1.5;
+    color: black;
 }

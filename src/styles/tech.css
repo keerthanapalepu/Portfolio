@@ -7,7 +7,7 @@
 
 .tech {
     color: black;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     font-size: 15px;
 }
 
@@ -29,6 +29,30 @@
 .mySpan:hover+.hide {
     display: block;
     color: red;
+}
+.techicons {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.techicons.right{
+  justify-content:flex-start;
+}
+.techicons.left{
+  justify-content: end;
+}
+
+.techsvg{
+    display: flex;
+
+    flex-wrap: wrap;
+    align-content: center;
+}
+.techsvg.right{
+  justify-content:flex-start;
+}
+.techsvg.left{
+  justify-content:end;
 }
 
 .TechCard {

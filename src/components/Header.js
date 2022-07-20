@@ -5,6 +5,7 @@ import "../styles/nav.css";
 import Title from "./Title";
 import BackgroundImage from "../assets/background.jpg";
 
+
 const scrollToTop = function () {
   scroll.scrollToTop();
 };
@@ -17,95 +18,7 @@ const myStyle = {
   textAlign: "center"
 };
 
-// export default class Navbar extends Component {
-//   // scrollToTop = () => {
-//   //   scroll.scrollToTop();
-//   // };
 
-//   _renderCounter = () => {
-//     const [navbar, setNavBar] = useState(false);
-
-//   }
-
-//   render() {
-//     return (
-//       <nav className="nav active" id="navbar">
-//         <div className="nav-content">
-//           {
-// <img
-//   src={logo}
-//   className="nav-logo"
-//   alt="Logo"
-//   onClick={this.scrollToTop}
-// />
-//           }
-//           <ul className="nav-items">
-//             {/* <li className="nav-item">
-//               <Link
-//                 activeClass="active"
-//                 to="title"
-//                 spy={true}
-//                 smooth={true}
-//                 offset={-70}
-//                 duration={500}
-//               >
-//                 Home
-//               </Link>
-//             </li> */}
-//             <li className="nav-item">
-//               <Link
-//                 activeClass="active"
-//                 to="skills"
-//                 spy={true}
-//                 smooth={true}
-//                 offset={-70}
-//                 duration={500}
-//               >
-//                 What I do
-//               </Link>
-//             </li>
-//             <li className="nav-item">
-//               <Link
-//                 activeClass="active"
-//                 to="tech"
-//                 spy={true}
-//                 smooth={true}
-//                 offset={-70}
-//                 duration={500}
-//               >
-//                 Tech
-//               </Link>
-//             </li>
-//             <li className="nav-item">
-//               <Link
-//                 activeClass="active"
-//                 to="projects"
-//                 spy={true}
-//                 smooth={true}
-//                 offset={-70}
-//                 duration={500}
-//               >
-//                 Projects
-//               </Link>
-//             </li>
-//             <li className="nav-item">
-//               <Link
-//                 activeClass="active"
-//                 to="aboutme"
-//                 spy={true}
-//                 smooth={true}
-//                 offset={-70}
-//                 duration={500}
-//               >
-//                 About
-//               </Link>
-//             </li>
-//           </ul>
-//         </div>
-//       </nav>
-//     );
-//   }
-// }
 
 export default function Navbar() {
   const [navBar, setNavBar] = useState(false);
@@ -120,16 +33,15 @@ export default function Navbar() {
 
   window.addEventListener("scroll", changeBackground);
 
-  return (
-    <section style={myStyle}>
+  return (<>
+    <section className="background">
       <header className={navBar ? "nav active" : "nav"}>
         <span class="navbar-brand" href="">
-          <img
-            src={logo}
+          <h3
             className="nav-logo"
-            alt="Logo"
             onClick={scrollToTop}
-          />
+            >Keerthana Palepu
+          </h3>
         </span>
         <center className="leftnav">
           <nav className="nav__container__actions ">
@@ -199,5 +111,7 @@ export default function Navbar() {
       </header>
       <Title />
     </section>
+    
+    </>
   );
 }
