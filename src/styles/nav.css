@@ -140,7 +140,7 @@ a {
 
 @media (max-width: 720px) {
     .title__h1 {
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
     p {
         font-family: "Arima", cursive;
@@ -153,8 +153,8 @@ a {
         height: 400px
     }
     .title_col {
-        padding-top: 25%;
-        padding-bottom: 1px;
+        padding-top: 28%;
+        padding-bottom: 8%;
     }
     .svg__title {
         display: none;
