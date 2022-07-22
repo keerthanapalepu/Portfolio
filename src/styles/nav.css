@@ -135,11 +135,19 @@ a {
 }
 
 @media (max-width: 720px) {
+    p {
+        font-family: "Arima", cursive;
+        color: #333333;
+    }
+    .custom-shape-divider-bottom-1658234901 {
+        display: none;
+    }
     .card {
         height: 400px
     }
     .title_col {
-        padding-top: 15%;
+        padding-top: 25%;
+        padding-bottom: 1px;
     }
     .svg__title {
         display: none;
@@ -181,8 +189,8 @@ a {
         margin: auto;
     }
     .nav-logo {
-        width: 100%;
-        justify-content: center;
+        margin: auto;
+        font-size: 2rem;
     }
     .tech {
         font-size: 15px;

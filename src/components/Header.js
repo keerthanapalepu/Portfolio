@@ -26,13 +26,13 @@ export default function Navbar() {
   return (<>
     <section className="background">
       <header className={navBar ? "nav active" : "nav"}>
-        <span class="navbar-brand" href="">
+
           <h3
             className="nav-logo"
             onClick={scrollToTop}
-            >Keerthana Palepu
+            >KEERTHANA PALEPU
           </h3>
-        </span>
+
         <center className="leftnav">
           <nav className="nav__container__actions ">
             <div>

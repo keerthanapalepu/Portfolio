@@ -3,7 +3,6 @@ import Heading from "../utils/Heading";
 import "../styles/tech.css";
 import TechCard from "../utils/TechCard";
 
-import TitleSvg from "../assets/svgComponents/titleSVG"
 import FrontendSVG from "../assets/svgComponents/frontendSVG"
 import BackendSVG from "../assets/svgComponents/backendSVG"
 import LanguageSVG from "../assets/svgComponents/languagesSVG"
