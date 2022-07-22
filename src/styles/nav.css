@@ -134,11 +134,28 @@ a {
     fill: #FFFFFF;
 }
 
-@media (max-width: 620px) {
+@media (max-width: 720px) {
+    .card {
+        height: 400px
+    }
+    .title_col {
+        padding-top: 15%;
+    }
+    .svg__title {
+        display: none;
+    }
+    .col {
+        flex: auto;
+    }
     .wrapper {
         text-align: center;
         font-size: 10px;
         padding: 1% 10% 1%;
+    }
+    .skill_para {
+        font-size: 13px;
+        padding-left: 5%;
+        padding-right: 5%;
     }
     .nav {
         text-transform: none;
@@ -164,7 +181,8 @@ a {
         margin: auto;
     }
     .nav-logo {
-        visibility: hidden;
+        width: 100%;
+        justify-content: center;
     }
     .tech {
         font-size: 15px;

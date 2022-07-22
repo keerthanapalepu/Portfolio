@@ -1,56 +1,67 @@
 @import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap");
+
 /*   color variables */
+
+
 /*   border radius */
+
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
+
 body {
-  font-family: Oxygen, sans-serif;
+    font-family: Oxygen, sans-serif;
 }
+
 .wrapper {
-  text-align: center;
-  padding: 3% 15% 7%;
-  display: grid;
-  gap: 2rem;
-  justify-content: center;
+    text-align: center;
+    padding: 3% 15% 7%;
+    display: grid;
+    gap: 2rem;
+    justify-content: center;
 }
+
 .card {
-  margin: 2rem;
-  text-align: center;
-  overflow: hidden;
-  box-shadow: 0 2px 20px #e1e5ee;
-  border-radius: 0.2rem;
-  flex-direction: column;
-  justify-content: center;
-  cursor: pointer;
-  transition: transform 200ms ease-in;
+    margin: 1rem;
+    text-align: center;
+    overflow: hidden;
+    box-shadow: 0 2px 20px #e1e5ee;
+    border-radius: 0.2rem;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+    height: 480px;
+    transition: transform 200ms ease-in;
 }
+
 .card__image {
-  height: 300px;
-  width: 260px;
-  object-fit: cover;
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
 }
 
 .card__btn {
-  padding: 1rem;
-  font-family: inherit;
-  font-weight: bold;
-  font-size: 1rem;
-  margin: 1rem;
-  border: 2px solid #028ea7;
-  background: transparent;
-  color: #028ea7;
-  border-radius: 0.2rem;
-  transition: background 200ms ease-in, color 200ms ease-in;
+    padding: 1rem;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 1rem;
+    margin: 1rem;
+    border: 2px solid #028ea7;
+    background: transparent;
+    color: #028ea7;
+    border-radius: 0.2rem;
+    transition: background 200ms ease-in, color 200ms ease-in;
 }
+
 .card:hover {
-  transform: scale(1.02);
+    transform: scale(1.02);
 }
+
 .card:hover .card__btn {
-  background: #028ea7;
-  color: white;
+    background: #028ea7;
+    color: white;
 }

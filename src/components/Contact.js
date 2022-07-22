@@ -11,7 +11,7 @@ const Contact = () => {
         <Heading heading={"CONTACT ME"} />
         <Icons />
         <br />
-        <Paragraph info={"Made with ❤️ by Akhileshwar"} />
+        <Paragraph info={"Made with ❤️ by Keerthana"} />
       </div>
     </div>
   );

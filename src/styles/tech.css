@@ -17,7 +17,7 @@
 
 .medium {
     margin: 5px 15px 5px 15px;
-    font-size: 3rem;
+    font-size: 2.5rem;
     line-height: 2rem;
     transition: transform 200ms ease-in;
 }
@@ -30,34 +30,38 @@
     display: block;
     color: red;
 }
+
 .techicons {
     display: flex;
     align-items: center;
     justify-content: end;
 }
-.techicons.right{
-  justify-content:flex-start;
-}
-.techicons.left{
-  justify-content: end;
+
+.techicons.right {
+    justify-content: flex-start;
 }
 
-.techsvg{
+.techicons.left {
+    justify-content: end;
+}
+
+.techsvg {
     display: flex;
-
     flex-wrap: wrap;
     align-content: center;
 }
-.techsvg.right{
-  justify-content:flex-start;
+
+.techsvg.right {
+    justify-content: flex-start;
 }
-.techsvg.left{
-  justify-content:end;
+
+.techsvg.left {
+    justify-content: end;
 }
 
 .TechCard {
     margin: auto;
-      margin-bottom: 2rem;
+    margin-bottom: 2rem;
     text-align: center;
     overflow: hidden;
     box-shadow: 0 0px 0px #e1e5ee;
@@ -69,7 +73,7 @@
 }
 
 .TechCard:hover {
-    transform: scale(1.1);
+    transform: scale(1.0);
 }
 
 .p-3 {
@@ -79,6 +83,7 @@
 .mb-2 {
     margin-bottom: 1rem !important;
 }
-.techStackImage{
-  height: 250px;
+
+.techStackImage {
+    height: 250px;
 }

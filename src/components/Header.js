@@ -1,21 +1,11 @@
 import React, { useState } from "react";
-import logo from "../assets/logo.png";
 import { Link, animateScroll as scroll } from "react-scroll";
 import "../styles/nav.css";
 import Title from "./Title";
-import BackgroundImage from "../assets/background.jpg";
 
 
 const scrollToTop = function () {
   scroll.scrollToTop();
-};
-
-const myStyle = {
-  backgroundImage: `url(${BackgroundImage})`,
-  backgroundPosition: "center",
-  backgroundSize: "cover",
-  backgroundRepeat: "no-repeat",
-  textAlign: "center"
 };
 
 
@@ -97,7 +87,7 @@ export default function Navbar() {
                 </li>
                 <li>
                   <a
-                    href="https://drive.google.com/file/d/1TTqsooHAymgNOyU8eAXT2AKt7p3G9TPa/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1tvZhiD86s8oQv4flgCGJSkf2JlCVo69s/view?usp=sharing"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -111,7 +101,7 @@ export default function Navbar() {
       </header>
       <Title />
     </section>
-    
+
     </>
   );
 }

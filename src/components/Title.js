@@ -7,7 +7,7 @@ const Title = () => {
   return (
     <div>
     <div className="container" style={{paddingTop: "15%" , paddingBottom: "5%"}} >
-    <div className="row" >
+    <div className="row title_col" >
     <div class="col" >
     <div className="home__title">
       <h1 >Full-stack</h1>
@@ -23,7 +23,7 @@ const Title = () => {
       </a>
     </div>
   </div>
-  <div className="col">
+  <div className="col svg__title">
   <TitleSvg  alignItems="center" height="70%" width="80%"/>
   </div>
   </div>

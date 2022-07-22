@@ -11,7 +11,7 @@ const SkillCard = (props) => {
           <i class={props.icon}></i>
         </span>
         <h3>{props.name}</h3>
-        <p>{props.content}</p>
+        <p className="skill_para">{props.content}</p>
       </div>
     </>
   );
