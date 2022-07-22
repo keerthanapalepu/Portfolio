@@ -10,12 +10,12 @@ const Title = () => {
     <div className="row title_col" >
     <div class="col" >
     <div className="home__title">
-      <h1 >Full-stack</h1>
+      <h1 className="title__h1">Full-stack</h1>
       <h1>
         <strong className="strong">Web</strong> &{" "}
         <strong className="strong">Mobile</strong>
       </h1>
-      <h1>Developer</h1>
+      <h1 className="title__h1">Developer</h1>
       <br />
       <Icons />
       <a href="#skills"  class="btn btn-outline-light btn-lg title-button">
